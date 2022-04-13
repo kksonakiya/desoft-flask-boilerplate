@@ -1,0 +1,28 @@
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+.table td, .table th{
+    text-align: center;
+}
+
+.settings-form span{
+    min-width: 100px;
+}
+.settings-form, .strategy-form{
+    max-width: 600px;
+    border-radius: 20px;
+    
+    transition:box-shadow 0.5s ease-in-out;
+}
+
+
+.settings-form:hover, .strategy-form:hover{
+    
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3) !important;
+}
+
+.strategy-form span, .strategy-form label{
+    min-width: 205px;
+}
+
